@@ -1,0 +1,197 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인 | JULOG</title>
+    <link rel="stylesheet" href="./assets/css/main.min.css">
+</head>
+<body>
+    <div class="wrap">
+        <!-- Header -->
+        <header>
+            <div class="top">
+                <a class="logo" href="/">
+                    <span class="emoji">🦧</span>
+                    <span>JULOG</span>
+                </a>
+                <div class="util">
+                    <button class="box-btn emoji">🔍</button>
+                    <button class="btn">로그인</button>
+                </div>
+            </div>
+            <nav>
+                <div class="menu">
+                    <a class="here" href="#"><span class="emoji">📈</span>트렌딩</a>
+                    <a href="#"><span class="emoji">🕓</span>최신</a>
+                    <!-- 이벤트는 아래 스크립트에서 확인 -->
+                    <button class="select-btn" id="period">오늘</button>
+                    <div class="options" data-for="period">
+                        <div class="active">오늘</div>
+                        <div>이번 주</div>
+                        <div>이번 달</div>
+                        <div>올해</div>
+                    </div>
+                </div>
+                <!-- 이벤트는 아래 스크립트에서 확인 -->
+                <button class="box-btn emoji" id="more">📚</button>
+                <div class="options" data-for="more">
+                    <div>공지사항</div>
+                    <div>JULOG</div>
+                </div>
+            </nav>
+        </header>
+        <!-- Header -->
+        <!-- Main -->
+        <main>
+            <div class="post-container">
+                <div class="post">
+                    <div class="thumbnail">
+                        <img src="./assets/img/img_sample4.jpg" alt="thumbnail">
+                    </div>
+                    <div class="info">
+                        <a href="#">
+                            <div class="title">Post Title</div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi reprehenderit iste modi beatae, veniam corporis vel ut sit adipisci labore quae.</p>
+                        </a>
+                        <div class="timeline">방금 전 · n개의 댓글</div>
+                    </div>
+                    <div class="user">
+                        <a href="#">
+                            <img src="./assets/img/img_profile1.png" alt="profile">
+                            <span>username</span>
+                        </a>
+                        <div class="likes">
+                            <span class="emoji">💕</span>
+                            <span>224k</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="thumbnail">
+                        <img src="./assets/img/img_sample1.jpg" alt="thumbnail">
+                    </div>
+                    <div class="info">
+                        <a href="#">
+                            <div class="title">Post Title</div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, aliquid natus error nam aut et dignissimos, facere hic reiciendis, quidem asperiores provident quaerat modi laborum quisquam illo voluptates amet nobis?</p>
+                        </a>
+                        <div class="timeline">그저께 · n개의 댓글</div>
+                    </div>
+                    <div class="user">
+                        <a href="#">
+                            <img src="./assets/img/img_profile1.png" alt="profile">
+                            <span>username</span>
+                        </a>
+                        <div class="likes">
+                            <span class="emoji">💕</span>
+                            <span>224k</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="thumbnail">
+                        <img src="./assets/img/img_sample2.jpg" alt="thumbnail">
+                    </div>
+                    <div class="info">
+                        <a href="#">
+                            <div class="title">Post Title</div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </a>
+                        <div class="timeline">n년 전 · n개의 댓글</div>
+                    </div>
+                    <div class="user">
+                        <a href="#">
+                            <img src="./assets/img/img_profile1.png" alt="profile">
+                            <span>username</span>
+                        </a>
+                        <div class="likes">
+                            <span class="emoji">💕</span>
+                            <span>224k</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="thumbnail">
+                        <img src="./assets/img/img_sample3.jpg" alt="thumbnail">
+                    </div>
+                    <div class="info">
+                        <a href="#">
+                            <div class="title">Post Title</div>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores eveniet aliquam itaque aliquid recusandae ratione modi quidem necessitatibus, alias adipisci laboriosam aperiam placeat, obcaecati assumenda harum, explicabo totam odit. Quam.</p>
+                        </a>
+                        <div class="timeline">어제 · n개의 댓글</div>
+                    </div>
+                    <div class="user">
+                        <a href="#">
+                            <img src="./assets/img/img_profile1.png" alt="profile">
+                            <span>username</span>
+                        </a>
+                        <div class="likes">
+                            <span class="emoji">💕</span>
+                            <span>224k</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="thumbnail">
+                        <img src="./assets/img/img_sample5.jpg" alt="thumbnail">
+                    </div>
+                    <div class="info">
+                        <a href="#">
+                            <div class="title">Post Title</div>
+                            <p> Delectus perspiciatis rem corporis sit accusamus, adipisci veritatis porro odit quibusdam et ad dolores.</p>
+                        </a>
+                        <div class="timeline">n개월 전 · n개의 댓글</div>
+                    </div>
+                    <div class="user">
+                        <a href="#">
+                            <img src="./assets/img/img_profile1.png" alt="profile">
+                            <span>username</span>
+                        </a>
+                        <div class="likes">
+                            <span class="emoji">💕</span>
+                            <span>224k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Main -->
+        <script>
+            // Option Event
+            const options = Array.from(document.getElementsByClassName('options'));
+            options.forEach((_options) => {
+                const forId = _options.dataset.for;
+                const target = document.getElementById(forId);
+
+                // Option On/Off/Toggle Functions
+                function on() {
+                    _options.classList.add('on');
+                }
+                function off() {
+                    _options.classList.remove('on');
+                }
+                function toggle() {
+                    if(_options.classList.contains('on')) {
+                        off();
+                        return;
+                    }
+                    on();
+                }
+
+                // Click Event
+                target.addEventListener('click', () => {
+                    toggle();
+                });
+                // Focus/Blur Event
+                target.addEventListener('focus', () => {});
+                target.addEventListener('blur', () => {
+                    off();
+                });
+
+            });
+        </script>
+    </div>
+</body>
+</html>
