@@ -10,7 +10,7 @@ body {background-color:var(--bg);}
 button.btn {padding:8px 12px;background-color:var(--brand);border-radius:8px;font-size:1.6rem;color:var(--white);}
 button.btn:active:enabled {background-color:var(--brand-900);}
 // # Button - box type
-button.box-btn {width:40px;height:40px;background-color:var(--white);border-radius:50%;font-size:2rem;box-shadow:var(--shadow-100);}
+button.box-btn {width:40px;height:40px;background-color:var(--white);border-radius:50%;font-size:2rem;text-align:center;box-shadow:var(--shadow-100);}
 button.box-btn:active:enabled {background-color:var(--brand-200);box-shadow:var(--shadow-200);}
 // # Button - select type
 .select-btn {position:relative;padding:8px 12px;background-color:var(--white);border:1px solid var(--brand-100);box-shadow:var(--shadow-100);text-align:left;}
