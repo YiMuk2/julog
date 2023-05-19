@@ -16,7 +16,9 @@
                     <span>JULOG</span>
                 </a>
                 <div class="util">
-                    <button class="box-btn emoji">🔍</button>
+                    <button class="box-btn">
+                        <span class="emoji">🔍</span>
+                    </button>
                     <button class="btn">로그인</button>
                 </div>
             </div>
@@ -34,7 +36,9 @@
                     </div>
                 </div>
                 <!-- 이벤트는 아래 스크립트에서 확인 -->
-                <button class="box-btn emoji" id="more">📚</button>
+                <button class="box-btn emoji" id="more">
+                    <span class="emoji">📚</span>
+                </button>
                 <div class="options" data-for="more">
                     <div>공지사항</div>
                     <div>JULOG</div>
@@ -182,7 +186,7 @@
                 }
 
                 // Ios는 Mouseout Event로 처리
-                const blurEventName = isIos === true ? 'mouseout' : 'blur';
+                const blurEventName = isIos ? 'mouseout' : 'blur';
 
                 // Click Event
                 target.addEventListener('click', () => {
@@ -193,7 +197,6 @@
                 target.addEventListener(blurEventName, () => {
                     off();
                 });
-
             });
         </script>
     </div>
