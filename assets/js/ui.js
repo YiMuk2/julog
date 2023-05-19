@@ -1,0 +1,1 @@
+const isIos = /iPhone|iPad|iPod/i.test(navigator.userAgent);

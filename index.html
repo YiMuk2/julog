@@ -180,13 +180,16 @@
                     on();
                 }
 
+                // Ios는 Mouseout Event로 처리
+                const blurEventName = isIos === true ? 'mouseout' : 'blur';
+
                 // Click Event
                 target.addEventListener('click', () => {
                     toggle();
                 });
                 // Focus/Blur Event
                 target.addEventListener('focus', () => {});
-                target.addEventListener('blur', () => {
+                target.addEventListener(blurEventName, () => {
                     off();
                 });
 
