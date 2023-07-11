@@ -1,0 +1,40 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write | JULOG</title>
+    <link rel="stylesheet" href="./assets/css/main.min.css">
+    <link rel="stylesheet" href="http://lab.lepture.com/editor/editor.css" />
+    <script type="text/javascript" src="http://lab.lepture.com/editor/editor.js"></script>
+    <script type="text/javascript" src="http://lab.lepture.com/editor/marked.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!-- Header -->
+        <header>
+            <div class="top">
+                <a class="logo" href="/">
+                    <span class="emoji">🦧</span>
+                    <span>JULOG</span>
+                </a>
+                <div class="util">
+                    <button class="box-btn">
+                        <span class="emoji">🔍</span>
+                    </button>
+                    <button class="btn">로그인</button>
+                </div>
+            </div>
+        </header>
+        <!-- Header -->
+        <!-- Post -->
+        <textarea id="editor"></textarea>
+        <!-- Post -->
+        <script src="./assets/js/ui.js"></script>
+        <script>
+            var editor = new Editor();
+            editor.render();
+        </script>
+    </div>
+</body>
+</html>
